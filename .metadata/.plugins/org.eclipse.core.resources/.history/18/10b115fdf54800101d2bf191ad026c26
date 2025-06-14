@@ -1,0 +1,5 @@
+package com.travelbank.accounts.service.client;
+
+public class CardsFallback {
+
+}

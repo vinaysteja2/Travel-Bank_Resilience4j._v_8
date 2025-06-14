@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.travelbank.accounts.dto.CardsDto;
 
-@FeignClient("cards")
+@FeignClient(name="cards", fallback = CardsFallback.class)
 public interface CardsFeignClient {
 
   @GetMapping(value = "/api/fetch",consumes = "application/json")
