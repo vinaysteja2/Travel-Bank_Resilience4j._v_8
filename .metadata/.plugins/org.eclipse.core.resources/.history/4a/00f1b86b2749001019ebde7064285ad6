@@ -9,9 +9,6 @@ spring:
         locator:
           enabled: false
           lowerCaseServiceId: true
-      httpclient:
-        connect-timeout: 1000
-        response-timeout: 2s
 
 management:
   endpoints:
@@ -44,7 +41,7 @@ resilience4j.circuitbreaker:
       permittedNumberOfCallsInHalfOpenState: 2
       failureRateThreshold: 50
       waitDurationInOpenState: 10000
-#below for error we need time dely or backend and gateway...nothing but overridign the circuit breaker timeout.
+#below for error we need time dely or backend and gateway...
 #resilience4j:
 #  circuitbreaker:
 #    configs:
