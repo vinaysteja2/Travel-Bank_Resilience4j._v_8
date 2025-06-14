@@ -1,5 +1,6 @@
 package com.travelbank.accounts.controller;
 
+import io.github.resilience4j.retry.annotation.Retry;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -10,6 +11,10 @@ import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
 
+import java.util.concurrent.TimeoutException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
@@ -41,7 +46,7 @@ public class AccountsController {
 
     private IAccountsService iAccountsService;
     
-    
+    private static final Logger logger = LoggerFactory.getLogger(AccountsController.class);
     
     public AccountsController(IAccountsService iAccountsService) {
 		
@@ -202,13 +207,24 @@ public class AccountsController {
             )
     }
     )
+    
+    @Retry(name = "getBuildInfo",fallbackMethod = "getBuildInfoFallback")
     @GetMapping("/build-info")
-    public ResponseEntity<String> getBuildInfo() {
+    public ResponseEntity<String> getBuildInfo() throws TimeoutException {
+    	 logger.debug("getBuildInfoFallback() method Invoked");
+    	//throw new NullPointerException();
+    	//throw new TimeoutException();
         return ResponseEntity
                     .status(HttpStatus.OK)
                     .body(buildVersion);
     }
     
+    public ResponseEntity<String> getBuildInfoFallback(Throwable throwable) {
+        logger.debug("getBuildInfoFallback() method Invoked");
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body("0.9");
+    }
     
     @Operation(
             summary = "Get Java version",

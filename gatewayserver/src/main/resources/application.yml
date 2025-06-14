@@ -56,7 +56,5 @@ resilience4j.circuitbreaker:
 #  timelimiter:
 #    configs:
 #      default:
-#        timeoutDuration: 10s
-# 
-    
+#        timeoutDuration: 10s 
 
