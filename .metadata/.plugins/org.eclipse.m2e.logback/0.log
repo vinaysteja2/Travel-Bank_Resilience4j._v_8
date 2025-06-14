@@ -1,0 +1,47 @@
+2025-06-14 09:10:55,704 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-14 09:12:23,632 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:cards:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\cards\pom.xml.
+2025-06-14 09:12:24,181 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:accounts:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\accounts\pom.xml.
+2025-06-14 09:12:27,077 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:27,106 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:27,120 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-06-14 09:12:28,851 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:28,854 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:28,871 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-06-14 09:12:29,330 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:cards:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\cards\pom.xml.
+2025-06-14 09:12:30,173 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:cards:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\cards\pom.xml.
+2025-06-14 09:12:32,272 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:32,315 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:32,328 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\cards\src\test\resources
+2025-06-14 09:12:33,076 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:33,079 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:33,092 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\cards\src\test\resources
+2025-06-14 09:12:33,939 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:configserver:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\configserver\pom.xml.
+2025-06-14 09:12:36,422 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:36,454 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-06-14 09:12:36,501 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\configserver\src\test\resources
+2025-06-14 09:12:36,912 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:36,915 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-06-14 09:12:36,968 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\configserver\src\test\resources
+2025-06-14 09:12:37,200 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:cards:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\cards\pom.xml.
+2025-06-14 09:12:38,156 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:eurekaserver:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\eurekaserver\pom.xml.
+2025-06-14 09:12:42,711 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:42,741 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-14 09:12:42,749 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\eurekaserver\src\test\resources
+2025-06-14 09:12:43,176 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:43,180 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-14 09:12:43,187 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\eurekaserver\src\test\resources
+2025-06-14 09:12:44,031 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:gatewayserver:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\gatewayserver\pom.xml.
+2025-06-14 09:12:48,302 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:48,332 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-14 09:12:48,338 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\gatewayserver\src\test\resources
+2025-06-14 09:12:48,770 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:48,773 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-14 09:12:48,777 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\gatewayserver\src\test\resources
+2025-06-14 09:12:49,714 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:loans:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\loans\pom.xml.
+2025-06-14 09:12:51,120 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:51,155 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:51,166 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\loans\src\test\resources
+2025-06-14 09:12:51,948 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.travelbank:cards:0.0.1-SNAPSHOT @ D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\cards\pom.xml.
+2025-06-14 09:12:52,677 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:52,679 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-14 09:12:52,687 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\GitHub_Public\TravelBank\microservices-3.4.1\sectionNew10\loans\src\test\resources
